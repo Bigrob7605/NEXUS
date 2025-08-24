@@ -1,0 +1,58 @@
+NEXUS PUBLIC LICENSE (NPL)
+Version 1.0, December 2024
+
+Copyright (c) 2024 NEXUS Language Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+SPECIAL CONDITIONS FOR NEXUS DERIVATIVES:
+
+1. MEMORY SAFETY REQUIREMENT
+   Any derivative work must be provably memory-safe. The derivative must
+   include formal verification of memory safety properties and must not
+   emit undefined behavior under any circumstances.
+
+2. Γ-AST HASH CHAIN PUBLICATION
+   Any derivative work must publish its complete Γ-AST hash chain for
+   cryptographic verification. This includes all intermediate compilation
+   steps and final output hashes.
+
+3. NO UNDEFINED BEHAVIOR
+   No derivative work may emit undefined behavior, regardless of input.
+   All edge cases must be handled explicitly and safely.
+
+4. VERIFICATION ARTIFACTS
+   All mathematical proofs and verification artifacts must be included
+   with the derivative work, ensuring complete transparency and verifiability.
+
+5. COMPLIANCE REPORTING
+   Derivatives must include a compliance report demonstrating adherence
+   to all NPL requirements, with evidence of verification and testing.
+
+VIOLATION OF THESE CONDITIONS:
+Failure to comply with any of these special conditions constitutes a
+violation of the NPL and may result in legal action to enforce compliance
+or prevent distribution of non-compliant derivatives.
+
+For questions about this license, please contact:
+nexus-legal@nexus-lang.org
+
+---
+
+NEXUS: The Last Programming Language
+AI-Native, Provably Correct, Self-Evolving
+
+"The future of programming is provable, AI-native, self-evolving, and pain-free."

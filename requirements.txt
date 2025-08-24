@@ -1,0 +1,25 @@
+# Kai Optimized Ensemble Engine Dependencies
+# Core AI and ML
+ollama>=0.1.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# System monitoring and resource management
+psutil>=5.9.0
+GPUtil>=1.4.0
+
+# Async and concurrency
+asyncio  # Built-in with Python 3.7+
+concurrent.futures  # Built-in with Python 3.2+
+
+# Utilities
+pathlib  # Built-in with Python 3.4+
+hashlib  # Built-in with Python
+datetime  # Built-in with Python
+threading  # Built-in with Python
+queue  # Built-in with Python
+collections  # Built-in with Python
+
+# Optional: For enhanced features
+# matplotlib>=3.7.0  # For performance visualization
+# seaborn>=0.12.0   # For statistical analysis

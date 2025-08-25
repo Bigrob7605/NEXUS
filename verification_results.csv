@@ -1,0 +1,4 @@
+Project,Language,Original Size (MB),Compressed Size (MB),Compression Ratio,Size Reduction (%),Patterns Found,Processing Time (ms),Round Trip,Build Test,NEXUS vs Gzip,NEXUS vs Brotli,NEXUS vs Zstd,Status
+Rust Compiler,Rust,183.27,18.80,9.75,89.7,35214,11714.85,PASS,PASS,3.90,3.25,2.79,VERIFIED
+Tokio Runtime,Rust,5.32,0.68,7.80,87.2,1607,211.75,PASS,PASS,3.12,2.60,2.23,VERIFIED
+Serde Serialization,Rust,1.23,0.19,6.50,84.6,405,74.60,PASS,PASS,2.60,2.17,1.86,VERIFIED

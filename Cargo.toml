@@ -15,6 +15,7 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 thiserror = "1.0"
 anyhow = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
 
 # Async runtime
 tokio = { version = "1.0", features = ["full"] }
@@ -45,7 +46,17 @@ path = "src/main.rs"
 name = "run_tests"
 path = "run_tests.rs"
 
+[[bin]]
+name = "validate_breakthrough"
+path = "validate_breakthrough.rs"
 
+[[bin]]
+name = "test_real_compression"
+path = "test_real_compression.rs"
+
+[[bin]]
+name = "massive_codebase_testing"
+path = "massive_codebase_testing.rs"
 
 [profile.release]
 opt-level = 3

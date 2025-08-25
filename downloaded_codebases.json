@@ -1,0 +1,219 @@
+{
+  "python/cpython": {
+    "path": "test_codebases\\python\\cpython",
+    "commit": "f57be7b2b3dc61ed18c5cd98843c1dfbc83c424d",
+    "url": "https://github.com/python/cpython.git",
+    "branch": "main",
+    "language": "python"
+  },
+  "python/django": {
+    "path": "test_codebases\\python\\django",
+    "commit": "165ad74c578f94f962624a40dff14e1b2e23a1f8",
+    "url": "https://github.com/django/django.git",
+    "branch": "main",
+    "language": "python"
+  },
+  "python/flask": {
+    "path": "test_codebases\\python\\flask",
+    "commit": "330123258e8c3dc391cbe55ab1ed94891ca83af3",
+    "url": "https://github.com/pallets/flask.git",
+    "branch": "main",
+    "language": "python"
+  },
+  "python/requests": {
+    "path": "test_codebases\\python\\requests",
+    "commit": "b25c87d7cb8d6a18a37fa12442b5f883f9e41741",
+    "url": "https://github.com/psf/requests.git",
+    "branch": "main",
+    "language": "python"
+  },
+  "javascript/node": {
+    "path": "test_codebases\\javascript\\node",
+    "commit": "15ede933c319a8cbd7723488862c570ea0424d1c",
+    "url": "https://github.com/nodejs/node.git",
+    "branch": "main",
+    "language": "javascript"
+  },
+  "javascript/react": {
+    "path": "test_codebases\\javascript\\react",
+    "commit": "090777d78a4d61462dc984b9bba169edd3e7c088",
+    "url": "https://github.com/facebook/react.git",
+    "branch": "main",
+    "language": "javascript"
+  },
+  "javascript/vue": {
+    "path": "test_codebases\\javascript\\vue",
+    "commit": "9e88707940088cb1f4cd7dd210c9168a50dc347c",
+    "url": "https://github.com/vuejs/vue.git",
+    "branch": "main",
+    "language": "javascript"
+  },
+  "javascript/lodash": {
+    "path": "test_codebases\\javascript\\lodash",
+    "commit": "8a26eb42adb303f4adc7ef56e300f14c5992aa68",
+    "url": "https://github.com/lodash/lodash.git",
+    "branch": "main",
+    "language": "javascript"
+  },
+  "java/hibernate": {
+    "path": "test_codebases\\java\\hibernate",
+    "commit": "9178e329bfff8e9e73b84fd5ccb26d62ce29c0cb",
+    "url": "https://github.com/hibernate/hibernate-orm.git",
+    "branch": "main",
+    "language": "java"
+  },
+  "java/junit5": {
+    "path": "test_codebases\\java\\junit5",
+    "commit": "af47043e61540213c23215d34b548ac996994f00",
+    "url": "https://github.com/junit-team/junit5.git",
+    "branch": "main",
+    "language": "java"
+  },
+  "cpp/llvm-project": {
+    "path": "test_codebases\\cpp\\llvm-project",
+    "commit": "95a4c9c4f02eaffe04e64662d4c9fcbf6694b507",
+    "url": "https://github.com/llvm/llvm-project.git",
+    "branch": "main",
+    "language": "cpp"
+  },
+  "cpp/boost": {
+    "path": "test_codebases\\cpp\\boost",
+    "commit": "1fcf4e64ad56a2f39ed0661a86141d00de7facc7",
+    "url": "https://github.com/boostorg/boost.git",
+    "branch": "develop",
+    "language": "cpp"
+  },
+  "cpp/qt": {
+    "path": "test_codebases\\cpp\\qt",
+    "commit": "511a466f0924dfe55816106cbdae34a473fe60aa",
+    "url": "https://github.com/qt/qt5.git",
+    "branch": "5.15",
+    "language": "cpp"
+  },
+  "cpp/opencv": {
+    "path": "test_codebases\\cpp\\opencv",
+    "commit": "7a4bd852997274c56b8e883016f69a4c955e3a35",
+    "url": "https://github.com/opencv/opencv.git",
+    "branch": "4.x",
+    "language": "cpp"
+  },
+  "go/etcd": {
+    "path": "test_codebases\\go\\etcd",
+    "commit": "73dabc534435c41d205c3bd0bbb1ac19a092d94c",
+    "url": "https://github.com/etcd-io/etcd.git",
+    "branch": "main",
+    "language": "go"
+  },
+  "go/prometheus": {
+    "path": "test_codebases\\go\\prometheus",
+    "commit": "7cf585527fbceffab97f74007d8f9a61486878f1",
+    "url": "https://github.com/prometheus/prometheus.git",
+    "branch": "main",
+    "language": "go"
+  },
+  "csharp/entity-framework": {
+    "path": "test_codebases\\csharp\\entity-framework",
+    "commit": "53f9beda9ba0bd87214b54926b5e858758365dea",
+    "url": "https://github.com/dotnet/efcore.git",
+    "branch": "main",
+    "language": "csharp"
+  },
+  "csharp/roslyn": {
+    "path": "test_codebases\\csharp\\roslyn",
+    "commit": "6b2b0e4c7c3e0470c44ad22653996231a013d8e1",
+    "url": "https://github.com/dotnet/roslyn.git",
+    "branch": "main",
+    "language": "csharp"
+  },
+  "php/php-src": {
+    "path": "test_codebases\\php\\php-src",
+    "commit": "fc0dd9d4cad68396715274fb9e8450d41e41cab8",
+    "url": "https://github.com/php/php-src.git",
+    "branch": "master",
+    "language": "php"
+  },
+  "php/laravel": {
+    "path": "test_codebases\\php\\laravel",
+    "commit": "2a19af7a6dc709ec7c88d4aabbe01045aa553218",
+    "url": "https://github.com/laravel/laravel.git",
+    "branch": "master",
+    "language": "php"
+  },
+  "php/symfony": {
+    "path": "test_codebases\\php\\symfony",
+    "commit": "5c143bab54de0375c5cc65104412b8416a9eb5ec",
+    "url": "https://github.com/symfony/symfony.git",
+    "branch": "6.4",
+    "language": "php"
+  },
+  "php/composer": {
+    "path": "test_codebases\\php\\composer",
+    "commit": "2f70d210bbb285662f8163b8b811c15abf6ea0ba",
+    "url": "https://github.com/composer/composer.git",
+    "branch": "main",
+    "language": "php"
+  },
+  "swift/swift": {
+    "path": "test_codebases\\swift\\swift",
+    "commit": "db8b8480e97e37f4e1b331d793b554349ce55c5d",
+    "url": "https://github.com/apple/swift.git",
+    "branch": "main",
+    "language": "swift"
+  },
+  "swift/swift-package-manager": {
+    "path": "test_codebases\\swift\\swift-package-manager",
+    "commit": "f042205b3f49b687ef4427f7887affd81e460248",
+    "url": "https://github.com/apple/swift-package-manager.git",
+    "branch": "main",
+    "language": "swift"
+  },
+  "swift/swift-nio": {
+    "path": "test_codebases\\swift\\swift-nio",
+    "commit": "9b2642c21b3f85f8ce0e3604aacc85883d36b3f8",
+    "url": "https://github.com/apple/swift-nio.git",
+    "branch": "main",
+    "language": "swift"
+  },
+  "swift/vapor": {
+    "path": "test_codebases\\swift\\vapor",
+    "commit": "19d81598eb0d5fbff81f5cc939db199fef924bab",
+    "url": "https://github.com/vapor/vapor.git",
+    "branch": "main",
+    "language": "swift"
+  },
+  "kotlin/ktor": {
+    "path": "test_codebases\\kotlin\\ktor",
+    "commit": "39b12c45e23694ceb35decf788fd796941643fd5",
+    "url": "https://github.com/ktorio/ktor.git",
+    "branch": "main",
+    "language": "kotlin"
+  },
+  "rust/rust": {
+    "path": "test_codebases\\rust\\rust",
+    "commit": "809200ec956983fce4ae178b87dada69f01d0820",
+    "url": "https://github.com/rust-lang/rust.git",
+    "branch": "master",
+    "language": "rust"
+  },
+  "rust/tokio": {
+    "path": "test_codebases\\rust\\tokio",
+    "commit": "925c614c89d0a26777a334612e2ed6ad0e7935c3",
+    "url": "https://github.com/tokio-rs/tokio.git",
+    "branch": "master",
+    "language": "rust"
+  },
+  "rust/serde": {
+    "path": "test_codebases\\rust\\serde",
+    "commit": "babafa54d283fb087fa94f50a2cf82fa9e582a7c",
+    "url": "https://github.com/serde-rs/serde.git",
+    "branch": "master",
+    "language": "rust"
+  },
+  "rust/clap": {
+    "path": "test_codebases\\rust\\clap",
+    "commit": "cda1b8531b3b21e7d670fd46eaa0cd8f1fdfd90e",
+    "url": "https://github.com/clap-rs/clap.git",
+    "branch": "master",
+    "language": "rust"
+  }
+}

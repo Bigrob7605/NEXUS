@@ -1,0 +1,22 @@
+{
+  "total_languages": 2,
+  "languages_tested": 0,
+  "total_files_tested": 0,
+  "overall_success_rate": 0,
+  "overall_compression_ratio": 1.0,
+  "overall_integrity_rate": 0,
+  "total_compression_time": 0,
+  "total_decompression_time": 0,
+  "language_results": {
+    "rust": {
+      "success": false,
+      "error": "'success'"
+    },
+    "python": {
+      "success": false,
+      "error": "'success'"
+    }
+  },
+  "total_original_size": 0,
+  "total_compressed_size": 0
+}

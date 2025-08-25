@@ -55,8 +55,16 @@ name = "test_real_compression"
 path = "test_real_compression.rs"
 
 [[bin]]
+name = "test_nexus_real_compression"
+path = "test_nexus_real_compression.rs"
+
+[[bin]]
 name = "massive_codebase_testing"
 path = "massive_codebase_testing.rs"
+
+[[bin]]
+name = "test_simple_compression"
+path = "test_simple_compression.rs"
 
 [profile.release]
 opt-level = 3

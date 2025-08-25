@@ -15,7 +15,7 @@ NEXUS isn't just another language - it's the **evolutionary endpoint** of all pr
 ### **Phase 2: The Hybrid Era (Months 6-18)**
 - **Mixed-Language Projects**: NEXUS + legacy code in perfect harmony
 - **Automatic Migration**: AI suggests converting specific patterns to NEXUS
-- **Performance Profiling**: "This function would be 10x faster in NEXUS"
+- **Performance Profiling**: "This function would be faster in NEXUS"
 - **Gradual Rewrites**: File by file, module by module
 
 ### **Phase 3: The Tipping Point (Months 18-36)**

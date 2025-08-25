@@ -20,11 +20,8 @@ chrono = { version = "0.4", features = ["serde"] }
 # Async runtime
 tokio = { version = "1.0", features = ["full"] }
 
-# GPU Acceleration - Universal Information Folding
-ocl = { version = "0.19", optional = true }  # OpenCL support
-cuda = { version = "0.3", optional = true }  # CUDA support
-cuda-sys = { version = "0.2", optional = true }  # CUDA system bindings
-num_cpus = "1.16"  # CPU core detection for fallback
+# Core dependencies only
+num_cpus = "1.16"  # CPU core detection
 
 # Testing and development
 criterion = { version = "0.5", optional = true }
@@ -39,7 +36,7 @@ tempfile = "3.8"
 default = ["std"]
 std = []
 no_std = []
-gpu = ["ocl", "cuda", "cuda-sys"]  # Enable GPU acceleration features
+gpu = []
 
 [lib]
 name = "nexus"
@@ -48,30 +45,6 @@ path = "src/lib.rs"
 [[bin]]
 name = "nexus"
 path = "src/main.rs"
-
-[[bin]]
-name = "run_tests"
-path = "run_tests.rs"
-
-[[bin]]
-name = "validate_breakthrough"
-path = "validate_breakthrough.rs"
-
-[[bin]]
-name = "test_real_compression"
-path = "test_real_compression.rs"
-
-[[bin]]
-name = "test_nexus_real_compression"
-path = "test_nexus_real_compression.rs"
-
-[[bin]]
-name = "massive_codebase_testing"
-path = "massive_codebase_testing.rs"
-
-[[bin]]
-name = "test_simple_compression"
-path = "test_simple_compression.rs"
 
 [profile.release]
 opt-level = 3

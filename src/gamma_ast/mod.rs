@@ -117,6 +117,40 @@ pub struct Pattern {
     pub languages: Vec<String>,
 }
 
+/// Cross-file pattern for maximum compression across codebases
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct CrossFilePattern {
+    /// Unique pattern identifier
+    pub id: u64,
+    /// Pattern type identifier
+    pub pattern_type: String,
+    /// Pattern signature (structural + semantic hash)
+    pub signature: String,
+    /// Node IDs that belong to this pattern
+    pub node_ids: Vec<u64>,
+    /// Frequency across files
+    pub frequency: usize,
+    /// Compression potential score
+    pub compression_potential: f64,
+    /// Hierarchical level (1-4)
+    pub hierarchical_level: u8,
+}
+
+/// Meta-pattern for combining multiple patterns
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct MetaPattern {
+    /// Unique meta-pattern identifier
+    pub id: u64,
+    /// Sub-pattern IDs that compose this meta-pattern
+    pub sub_patterns: Vec<u64>,
+    /// Combined signature of all sub-patterns
+    pub combined_signature: String,
+    /// Total compression potential
+    pub compression_potential: f64,
+    /// Hierarchical level (always 4 for meta-patterns)
+    pub hierarchical_level: u8,
+}
+
 /// Γ-AST implementation with compression and pattern recognition
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct GammaAST {

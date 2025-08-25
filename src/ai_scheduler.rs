@@ -121,6 +121,22 @@ impl GPUMemoryManager {
             Err(SchedulerError::InvalidGPUId)
         }
     }
+    
+    /// Release GPU resources for a specific process
+    pub fn release_gpu(&mut self, gpu_id: u32, process_id: u32) -> Result<(), SchedulerError> {
+        if let Some(gpu) = self.gpus.get_mut(gpu_id as usize) {
+            if gpu.process_id == Some(process_id) {
+                let memory_freed = gpu.memory_allocated;
+                gpu.memory_allocated = 0;
+                gpu.process_id = None;
+                Ok(())
+            } else {
+                Err(SchedulerError::InvalidProcessId)
+            }
+        } else {
+            Err(SchedulerError::InvalidGPUId)
+        }
+    }
 }
 
 /// System memory manager
@@ -187,6 +203,7 @@ pub enum SchedulerError {
     InvalidMemoryFree,
     ProcessNotFound,
     ResourceAllocationFailed,
+    InvalidProcessId,
 }
 
 impl fmt::Display for SchedulerError {
@@ -198,6 +215,7 @@ impl fmt::Display for SchedulerError {
             SchedulerError::InvalidMemoryFree => write!(f, "Invalid memory free operation"),
             SchedulerError::ProcessNotFound => write!(f, "Process not found"),
             SchedulerError::ResourceAllocationFailed => write!(f, "Resource allocation failed"),
+            SchedulerError::InvalidProcessId => write!(f, "Invalid process ID"),
         }
     }
 }

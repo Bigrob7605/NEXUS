@@ -6,7 +6,7 @@
 //! - Utility functions
 //! - Error handling
 
-use super::{TestResult, TestSuite};
+use nexus::{TestResult, TestSuite};
 
 /// Register all unit tests
 pub fn register_tests(suite: &mut TestSuite) {

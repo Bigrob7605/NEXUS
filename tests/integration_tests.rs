@@ -6,7 +6,7 @@
 //! - End-to-end scenarios
 //! - Real project integration
 
-use super::{TestResult, TestSuite};
+use nexus::{TestResult, TestSuite};
 
 /// Register all integration tests
 pub fn register_tests(suite: &mut TestSuite) {

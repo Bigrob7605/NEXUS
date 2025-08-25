@@ -3,7 +3,7 @@
 //! These tests validate our mathematical approach and theoretical foundations
 //! before we start implementing anything. They ensure our approach is sound.
 
-use super::{TestResult, TestSuite};
+use nexus::{TestResult, TestSuite};
 
 /// Register all theory validation tests
 pub fn register_tests(suite: &mut TestSuite) {

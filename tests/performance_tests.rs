@@ -6,7 +6,7 @@
 //! - Memory usage and optimization
 //! - Scalability and throughput
 
-use super::{TestResult, TestSuite};
+use nexus::{TestResult, TestSuite};
 use std::time::Instant;
 
 /// Register all performance tests

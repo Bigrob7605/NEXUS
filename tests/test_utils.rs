@@ -6,7 +6,7 @@
 //! - Performance measurement
 //! - Common test patterns
 
-use super::TestResult;
+use nexus::TestResult;
 use std::time::{Duration, Instant};
 use std::hash::Hasher;
 

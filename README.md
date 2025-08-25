@@ -1,3 +1,5 @@
+Drift cleaned update coming up asap.
+
 # NEXUS - Universal Language Bridge
 
 > **AI-Native, Provably Correct Programming Language**

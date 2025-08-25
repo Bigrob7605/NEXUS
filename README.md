@@ -270,6 +270,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Issues**: [GitHub Issues](https://github.com/nexus-lang/nexus/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/nexus-lang/nexus/discussions)
 
+Facebook = https://www.facebook.com/SillyDaddy7605
+X = https://x.com/LookDeepSonSon
 ---
 
 **Status**: Real solution identified, documentation sync in progress, algorithm fixes planned
